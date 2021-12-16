@@ -7,6 +7,8 @@
 # if it does not work check https://openwrt.org/docs/guide-user/additional-software/extroot_configuration
 # and do extroot manually, (block command can be replaced with blkid)
 
+# check sucess with df -h and look at the rootfs entry, that's the one that should have expanded
+
 
 DPS=700 # data partition size on sd card in MB
 
@@ -147,4 +149,5 @@ enableExtRoot
 echo "finished"
 exit 0
                   
+		  
                   
