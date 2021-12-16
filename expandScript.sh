@@ -4,6 +4,9 @@
 # runs the exact same checks and commands, comment and uncomment lines as you wish
 # (partitioning is commented out as I do it by myself usually)
 
+# if it does not work check https://openwrt.org/docs/guide-user/additional-software/extroot_configuration
+# and do extroot manually, (block command can be replaced with blkid)
+
 
 DPS=700 # data partition size on sd card in MB
 
